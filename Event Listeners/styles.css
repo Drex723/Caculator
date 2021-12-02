@@ -1,0 +1,37 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+body, div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grandparent {
+    margin: 0 auto;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+.child {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+}
+
+.parent {
+    margin: 0 auto;
+    width: 130px;
+    height: 130px;
+    background-color: blue
+}
